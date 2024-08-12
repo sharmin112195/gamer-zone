@@ -1,10 +1,20 @@
+.{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 /* navbar design starts here */
 
 .nav-main{
-
+    border: 1px solid red;
+display: flex;
+justify-content: space-between;
+align-items: center;
 }
 .nav-left{
-
+display: flex;
+align-items: center;
+font-size: 40px;
 }
 .nav-right{
     
