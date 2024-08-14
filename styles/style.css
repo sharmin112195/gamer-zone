@@ -1,15 +1,21 @@
-.{
+*{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 /* navbar design starts here */
-
+.nav-container{
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.137);
+}
 .nav-main{
-    border: 1px solid red;
+
 display: flex;
 justify-content: space-between;
 align-items: center;
+padding: 20px 0px;
+
+max-width: 1000px;
+margin: 0 auto;
 }
 .nav-left{
 display: flex;
@@ -18,4 +24,62 @@ font-size: 40px;
 }
 .nav-right{
     
+}
+.nav-btn{
+background-color: transparent;
+border: none;
+font-size: 18px;
+margin-right: 15px;
+}
+.nav-btn-follow{
+   background-color: rgba(11, 2, 35, 0.1);
+    padding: 7px 15px;
+    border-radius: 7px;
+    margin-right: none;
+}
+
+/* header starts here */
+.header-main{
+
+display: flex;
+max-width: 1000px;
+margin: 0 auto;
+justify-content: space-between;
+align-items: center;
+}
+.header-left{
+
+width: 50%;
+font-family: "Work Sans", sans-serif;
+}
+.goat{
+    font-size: 45px;
+}
+.header-right{
+
+width: 50%;
+}
+.header-right img{
+    width: 100%;
+}
+.p1 i{
+    color: rgba(255, 66, 165, 1);
+}
+.p2 i{
+    color: rgba(255, 66, 165, 1);
+}
+.header-btn1, .header-btn2{
+color: white;
+border-radius: 20px;
+border: none;
+margin-top: 15px;
+margin-right: 15px;
+}
+.header-btn1{
+background-color: rgba(255, 66, 165, 1);
+padding: 10px 25px;
+}
+.header-btn2{
+background-color: rgba(78, 197, 247, 1);
+padding: 10px 28px;
 }
