@@ -39,6 +39,11 @@ margin-right: 15px;
 }
 
 /* header starts here */
+.header-container{
+    background-image: url("../images/Group\ 14.png");
+    background-repeat: no-repeat;
+    background-size: 50% 100%;
+}
 .header-main{
 
 display: flex;
@@ -46,14 +51,23 @@ max-width: 1000px;
 margin: 0 auto;
 justify-content: space-between;
 align-items: center;
+
 }
 .header-left{
 
 width: 50%;
 font-family: "Work Sans", sans-serif;
+
 }
 .goat{
     font-size: 45px;
+    background-image: linear-gradient(#f948b2, #8758f1);
+    background-clip: text;
+    color: transparent;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.301);
+}
+.goat-shadow{
+    text-shadow: none;
 }
 .header-right{
 
@@ -61,6 +75,9 @@ width: 50%;
 }
 .header-right img{
     width: 100%;
+}
+p i{
+    margin-right: 8px;
 }
 .p1 i{
     color: rgba(255, 66, 165, 1);
