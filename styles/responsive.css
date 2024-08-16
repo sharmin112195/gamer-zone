@@ -1,0 +1,21 @@
+@media screen and (max-width: 576px){
+    .nav-main{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .nav-right{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .nav-container{
+        box-shadow: none;
+    }
+    .header-main{
+        flex-direction: column-reverse;
+    }
+   .header-left, .header-right{
+    width: 80%;
+   }
+   
+    
+}
